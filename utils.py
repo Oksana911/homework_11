@@ -1,5 +1,6 @@
 import json
 
+
 def load_candidates_from_json(path):
     """возвращает список всех кандидатов"""
     with open(path, "r") as file:
